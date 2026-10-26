@@ -1,0 +1,19 @@
+{
+  "name": "voidsilva-skills",
+  "owner": {
+    "name": "Paulo Silva (voidsilva)"
+  },
+  "metadata": {
+    "description": "Skills para Claude criadas por voidsilva.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "revisao-adversarial",
+      "description": "Revisão independente de uma entrega antes de declará-la concluída: confere cada requisito, tenta quebrar com testes e dá um veredito com evidência.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/revisao-adversarial"]
+    }
+  ]
+}
